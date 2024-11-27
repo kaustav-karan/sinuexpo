@@ -1,27 +1,34 @@
 {
   "expo": {
-    "name": "sinuexpo",
-    "slug": "sinuexpo",
+    "name": "siNUsoid RETRO",
+    "slug": "siNUsoidRetro",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/appBaseLogo.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/appBaseLogo.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kaustavkaran.siNUsoidRetro"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/appBaseLogo.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kaustavkaran.siNUsoidRetro"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/appBaseLogo.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb1f10e3-8697-4352-9de8-152823b9720b"
+      }
     }
   }
 }

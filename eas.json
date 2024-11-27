@@ -1,0 +1,29 @@
+{
+  "cli": {
+    "version": "13.1.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "FIREBASE_API_KEY": "AIzaSyCfFqjp7-CuvT16sCS0zeBAC2RBfPU2r-c",
+        "FIREBASE_AUTH_DOMAIN": "sinuexpoapp.firebaseapp.com",
+        "FIREBASE_PROJECT_ID": "sinuexpoapp",
+        "FIREBASE_STORAGE_BUCKET": "sinuexpoapp.firebasestorage.app",
+        "FIREBASE_MESSAGING_SENDER_ID": "822107570095",
+        "FIREBASE_APP_ID": "1:822107570095:web:63a7ee868c7bf0f3ec795a"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
